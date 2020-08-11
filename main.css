@@ -50,6 +50,55 @@ table {
 /* HTML5 display-role reset for older browsers */
 
 
+.toplogo {
+      position: fixed;
+  overflow: hidden;
+
+    right:1;
+    background: (0,0,0,0.5);
+        z-index: 1;
+}
+
+.toplogo a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.toplogo a:hover {
+  background: rgba(0, 0, 0, 0.5);
+  color: black;
+    
+}
+
+
+/* Top navigation */
+.topnav {
+      position: fixed;
+  overflow: hidden;
+
+    right:0;
+    background: (0,0,0,0.5);
+        z-index: 1;
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background: rgba(0, 0, 0, 0.5);
+  color: black;
+    
+}
 
 /* Style the video: 100% width and height to cover the entire window */
 #myVideo {
@@ -83,6 +132,14 @@ body {
     Height: 100vh;
     Width: 100%;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    }
+
+.homepagecontent {
+    background: 1,1,1,1;
+    Height: 200vh;
+    Width: 100%;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    background-color: #000;
     }
 .homepagetext{
     
@@ -398,6 +455,7 @@ slider {
 	color: white;
 	display: table;
 	height: 100%;
+    width:100%;
 	left: 0;
 	opacity: 0;
 	position: absolute;
@@ -410,7 +468,7 @@ slider {
 	display: table-cell;
 	position: relative;
 	top: -40px;
-	width: 289px;
+	width: 400px;
 	vertical-align: middle;
 }
 
