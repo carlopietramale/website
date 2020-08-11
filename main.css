@@ -78,6 +78,18 @@ body {
 
 }
 
+.homepage {
+      background: 0,0,0,0;
+      position: absolute;
+  top: 50%;
+
+Height: 100vh;
+    Width: 100%;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    
+    
+}
+
 /*  SECTIONS  */
 .section {
 	clear: none;
@@ -146,6 +158,7 @@ body {
 html {
     background-color: #282828;
     -webkit-font-smoothing: antialiased;
+    height:100%
 }
 
 
