@@ -62,12 +62,12 @@ table {
 }
 
 
-
+/* set body max width here */
 
 body {
     margin: 0 auto;
     padding: 2em 2em 4em;
-    max-width: 1024px;
+ max-width: 100%;
     font-family: "Proxima-Nova", Helvetica, montserratregular, sans-serif;
     font-size: 15px;
     line-height: 1.5em;
