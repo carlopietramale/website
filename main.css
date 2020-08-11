@@ -66,7 +66,7 @@ table {
 
 body {
     margin: 0 auto;
-    padding: 2em 2em 4em;
+
  max-width: 100%;
     font-family: "Proxima-Nova", Helvetica, montserratregular, sans-serif;
     font-size: 15px;
@@ -79,15 +79,15 @@ body {
 }
 
 .homepage {
-      background: 0,0,0,0;
-      position: absolute;
-  top: 50%;
-
-Height: 100vh;
+    background: 0,0,0,0;
+    Height: 100vh;
     Width: 100%;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    }
+.homepagetext{
     
-    
+          position: absolute;
+  top: 50%;
 }
 
 /*  SECTIONS  */
