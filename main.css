@@ -56,7 +56,9 @@ table {
 
     right:1;
     background: (0,0,0,0.5);
-        z-index: 1;
+        z-index: 2;
+        Height: 100vh;
+
 }
 
 .toplogo a {
@@ -83,20 +85,26 @@ table {
     right:0;
     background: (0,0,0,0.5);
         z-index: 1;
+    width:100%;
+    background-color:black;
+
 }
 
 .topnav a {
+
   float: right;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+    
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .topnav a:hover {
-  background: rgba(0, 0, 0, 0.5);
-  color: black;
+  background: rgba(0, 0, 0, 0.9);
+  color: white;
     
 }
 
