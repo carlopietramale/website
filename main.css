@@ -86,8 +86,17 @@ body {
     }
 .homepagetext{
     
+position: absolute;
+top: 30%;
+Width: 100%;
+}
+
+.homepagesubtext{
+    
           position: absolute;
   top: 30%;
+    Width: 50%;
+    align-self: center;
 }
 
 /*  SECTIONS  */
@@ -170,16 +179,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    letter-spacing: 20px;
-    font-size: 15px;
+    letter-spacing: 5px;
+    font-size: 12px;
     font-family: "montserratregular";
+    text-align: center;
 }
 
 h2 {
     margin-top: 0em;
     font-size: 25px;
-    letter-spacing: 10px;
+    letter-spacing: 15px;
     font-family: "montserratregular";
+    text-align: center;
 }
 
 h3 {
