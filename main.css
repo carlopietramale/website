@@ -50,13 +50,15 @@ table {
 /* HTML5 display-role reset for older browsers */
 
 
+
+
 .toplogo {
       position: fixed;
   overflow: hidden;
 
     right:1;
     background: (0,0,0,0.5);
-        z-index: 2;
+        z-index: 102;
         Height: 100vh;
 
 }
@@ -84,7 +86,7 @@ table {
 
     right:0;
     background: (0,0,0,0.5);
-        z-index: 1;
+        z-index: 101;
     width:100%;
     background-color:black;
 
@@ -131,7 +133,7 @@ body {
     color: #FFFFFF;
 
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
- 
+
 
 }
 
