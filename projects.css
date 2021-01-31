@@ -1,0 +1,431 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+
+
+
+
+
+body {
+    margin: 0 auto;
+
+
+
+    font-family: "Proxima-Nova", Helvetica, montserratregular, sans-serif;
+    font-size: 15px;
+    line-height: 1.5em;
+    color: #7c7d7d;
+    background-color: #282828;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+}
+
+.content {
+    margin: 0 auto;
+    padding: 2em 2em 4em;
+    max-width: 1024px;
+    font-family: "Proxima-Nova", Helvetica, montserratregular, sans-serif;
+    font-size: 15px;
+    line-height: 1.5em;
+    color: #7c7d7d;
+    background-color: #282828;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+}
+
+/*  SECTIONS  */
+.section {
+	clear: none;
+	padding: 0px;
+	margin: 0%;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 0.25% 0.25% 0.25% 0.25%;
+
+}
+
+.colcontact {
+	display: block;
+	float:left;
+	margin: 0.25% 0.25% 0.25% 0%;
+}
+.col:first-child { margin-left: 0.25%; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+/*  GRID OF FOUR  */
+.span_4_of_4 {
+	width: 100%;
+}
+.span_3_of_4 {
+	width: 74.6%;
+}
+.span_2_of_4 {
+	width: 49.2%;
+}
+.span_1_of_4 {
+	width: 24.5%;
+}
+
+/*  GRID OF THREE  */
+.span_3_of_3 { width: 100%; }
+.span_2_of_3 { width: 66.66%; }
+.span_1_of_3 { width: 31.48%; }
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-widthhttp://carlopietramale.com/: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 { width: 100%; }
+}
+
+
+
+
+#footer_social {
+        float:left;
+        display:inline-block;
+        width:16px;
+        height:16px;
+    
+}
+
+
+
+html {
+    background-color: #282828;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    color: #7c7d7d;
+    font-weight: normal;
+    line-height: 1.3em;
+    
+}
+
+h1 {
+    letter-spacing: 20px;
+    font-size: 15px;
+    font-family: "montserratregular";
+}
+
+h2 {
+    margin-top: 0em;
+    font-size: 42px;
+    letter-spacing: 20px;
+    font-family: "montserratregular";
+}
+
+h3 {
+    margin-top: 0em;
+    font-size: 12px;
+    font-family: "Proxima-Nova";
+    letter-spacing: 1px;
+    
+}
+
+h4 {
+    font-size: 26px;
+    font-family: "Proxima-Nova";
+    line-height: 1;
+}
+
+h5 {
+    font-size: 280%;
+    font-family: "Proxima-Nova";
+    line-height: 1;
+}
+contactmargin {
+    margin-left: 2cm;
+}
+footer {
+    font-size: 10px;
+}
+/* footer text */
+
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+.aligncenter {
+    float:center;   
+}
+
+/* footer text */
+
+a {
+    color: #0083e8;
+}
+
+/* center text countdown, remove after countdown */
+
+.countdownimage {
+
+position:relative;
+}
+
+
+
+.countdowntext {
+    
+left: 0;
+    position:absolute;
+    text-align:center;
+    top: 30px;
+    width: 100%
+    
+}
+
+/* center text countdown, remove after countdown */
+
+.image {
+    position:relative;
+}
+
+.text {
+    left: 0;
+    position:absolute;
+    text-align:center;
+    top: 30px;
+    width: 100%
+}
+
+/* center text countdown, remove after countdown */
+
+p {
+    font-family: "Proxima-Nova";
+    line-height: 1.5em;
+    margin: 10px 0;
+    
+}
+
+b, strong {
+    font-weight: 600;
+}
+
+
+samp {
+    display: none;
+}
+
+img {
+
+    background: transparent;
+    border-radius: 0px;
+    display: block;
+    margin: 0em auto;
+    max-width: 100%;
+}
+
+br {
+    content: " ";
+    display: block;
+    margin: 10px ;
+    line-height: 5px;
+}
+
+br1 {
+    content: " ";
+    display: block;
+    margin: 10px ;
+    line-height: 5px;
+}
+
+hr {
+    color:"#7c7d7d";
+}
+
+slider {
+    line-height:30px;
+    background-color:#eeeeee;
+    width:1024;
+    float:left;	      
+    
+}
+
+@-webkit-keyframes colorize {
+    0% {
+        -webkit-filter: grayscale(100%);
+    }
+    100% {
+        -webkit-filter: grayscale(0%);
+    }
+}
+
+@keyframes colorize {
+    0% {
+        filter: grayscale(100%);
+    }
+    100% {
+        filter: grayscale(0%);
+    }
+}
+
+@font-face {
+    font-family: 'montserratregular';
+    src: url('fonts/montserrat-regular-webfont.eot');
+    src: url('fonts/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/montserrat-regular-webfont.woff2') format('woff2'),
+         url('fonts/montserrat-regular-webfont.woff') format('woff'),
+         url('fonts/montserrat-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Proxima-Nova';
+    src: url('fonts/mamark_simonson_-_proxima_nova_regular-webfont.eot');
+    src: url('fonts/mark_simonson_-_proxima_nova_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/mark_simonson_-_proxima_nova_regular-webfont.woff2') format('woff2'),
+         url('fonts/mark_simonson_-_proxima_nova_regular-webfont.woff') format('woff'),
+         url('fonts/mark_simonson_-_proxima_nova_regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+.photo-grid {
+
+
+	text-align: center;
+
+}
+
+.photo-grid li {
+
+
+
+}
+
+.photo-grid img {
+
+}
+
+.photo-grid figure {
+    /*fix de hoogte hier */
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+
+.photo-grid figcaption {
+	background: rgba(0,0,0,0.8);
+	color: white;
+	display: table;
+	height: 100%;
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 100;
+}
+
+.photo-grid figcaption p {
+	display: table-cell;
+	position: relative;
+	top: -40px;
+	width: 289px;
+	vertical-align: middle;
+}
+
+.photo-grid li:hover figcaption {
+	opacity: 1;
+}
+
+.photo-grid figcaption p {
+	display: table-cell;
+	position: relative;
+	top: -40px;
+	width: 289px;
+	-webkit-transition: all 300ms ease-out;
+	-moz-transition: all 300ms ease-out;
+	transition: all 300ms ease-out;
+	vertical-align: middle;
+}
+
+.photo-grid li:hover figcaption p {
+	-moz-transform: translateY(40px);
+	-webkit-transform: translateY(40px);
+	transform: translateY(40px);
+}
+
+.photo-grid figcaption {
+	background: rgba(0,0,0,0.8);
+	color: #7c7d7d;
+	display: table;
+	height: 100%;
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	-webkit-transition: all 300ms;
+	-moz-transition: all 300ms;
+	transition: all 300ms;
+	-webkit-transition-delay: 100ms;
+	-moz-transition-delay: 100ms;
+	transition-delay: 100ms;
+	z-index: 100;
+}
+
+
